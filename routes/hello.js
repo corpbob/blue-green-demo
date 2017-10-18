@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   console.log("test2");
   var color = process.env.COLOR;
-  res.send('version 4: ' + color + '\n');
+  res.send('version 5: ' + color + '\n');
 });
 
 module.exports = router;
